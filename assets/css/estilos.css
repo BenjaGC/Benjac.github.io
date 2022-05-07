@@ -1,0 +1,38 @@
+body {
+    font-family: "Raleway", sans-serif;
+  }
+
+  #Name{
+    color: rgb(140, 124, 209);
+    font-family: 'Oleo Script', cursive;
+    text-align: center;
+  }
+  /* Hero Section */
+  
+
+  
+  
+  #Mis-trabajos .image-top {
+    background-image: url(/assets/img/bg-hero.jpg);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #Contacto form label {
+    font-weight: 700;
+    color: #312828;
+  }
+  
+  @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
+  
+    .navbar-brand{
+      width: 100px;
+      
+    }
+  
+  }
